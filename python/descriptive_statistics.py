@@ -6,7 +6,7 @@ current_folder = Path(__file__).parent
 csv_file = current_folder.parent / "data" / "GCC_DEMO.csv"
 
 # Load dataset
-data = pd.read_csv(csv_file)
+data = pd.read_csv("data/GCC_DEMO.csv")
 
 # Generate descriptive statistics
 statistics = data.describe()
